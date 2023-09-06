@@ -29,6 +29,10 @@ public class NacosConsumerApplication {
         SpringApplication.run(NacosConsumerApplication.class, args);
     }
 
+
+    /**
+     * server.port=8080
+     */
     @RestController
     public class TestController {
 

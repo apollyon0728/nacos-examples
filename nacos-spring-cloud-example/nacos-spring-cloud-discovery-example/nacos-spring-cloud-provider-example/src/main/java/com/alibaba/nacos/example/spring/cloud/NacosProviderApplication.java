@@ -19,6 +19,9 @@ public class NacosProviderApplication {
 		SpringApplication.run(NacosProviderApplication.class, args);
 	}
 
+	/**
+	 * server.port=8070
+	 */
 	@RestController
 	class EchoController {
 		@RequestMapping(value = "/echo/{string}", method = RequestMethod.GET)
